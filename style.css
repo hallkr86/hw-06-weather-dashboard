@@ -1,3 +1,41 @@
-h1{
-    color: magenta;
+body{
+    background-color: skyblue
 }
+
+h3{
+    color: white;
+}
+
+
+  .sidenav {
+    width: 130px;
+    float: left;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #2196F3;
+    display: block;
+  }
+
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+  }
+
+  .ajax-section {
+      margin: 50px 0 20px;
+      display: block;
+  }
+
+  .ajax-section-cities {
+      display: grid;
+      grid-gap: 32px 20px;
+      grid-template-columns: repeat(5, 1fr);
+  }
